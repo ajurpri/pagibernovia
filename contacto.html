@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Ibernovia</title>
+    <link rel="stylesheet" href="css.css"> 
+</head>
+<body>
+
+    <div class="barra-top">
+        <div class="enlaces-top">
+            <a href="contacto.html">Pedir Cita</a>
+        </div>
+        <div class="aviso-top">ATENCIÓN PERSONALIZADA</div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="ibernovia.jpg" alt="Logo Ibernovia"></a>
+        </div>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="novias.html">Novias</a></li>
+                <li><a href="fiesta.html">Fiesta</a></li>
+                <li><a href="comunion.html">Comunión</a></li>
+                <li><a href="complementos.html">Complementos</a></li>
+                <li class="activo"><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="carrito-container">
+            <div class="icono-carrito">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2 class="titulo-seccion">VISÍTANOS</h2>
+            <p>Queremos formar parte de tu gran día. Déjanos tus datos para concertar una cita y empezaremos a buscar juntas el vestido de tus sueños.</p>
+        </section>
+
+        <section class="zona-contacto">
+            <div class="formulario">
+                <h3 class="titulo-cita">PIDE TU CITA</h3>
+                <form action="#" method="post">
+                    <input type="text" name="nombre" placeholder="Nombre completo" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono" required>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                    
+                    <label class="label-fecha">Fecha preferente:</label>
+                    <input type="date" name="fecha">
+                    
+                    <textarea rows="4" placeholder="¿En qué estás interesada? (Novia, Comunión, Fiesta...)" required></textarea>
+
+                    <button type="submit" class="boton-negro">ENVIAR SOLICITUD</button>
+                </form>
+            </div>
+
+            <div class="info-tienda">
+                <h3>HORARIO</h3>
+                <table class="tabla-horario">
+                    <tr class="fila-horario">
+                        <td class="dia-semana">Lunes a Viernes</td>
+                        <td class="horario-td">
+                            10:00 - 13:30<br>
+                            17:00 - 20:30
+                        </td>
+                    </tr>
+                    <tr class="fila-horario">
+                        <td class="dia-semana">Sábados</td>
+                        <td class="horario-td">10:00 - 13:30</td>
+                    </tr>
+                    <tr>
+                        <td class="dia-semana cerrado">Domingos</td>
+                        <td class="horario-td cerrado">Cerrado</td>
+                    </tr>
+                </table>
+                
+                <br><div class="separador-gris"></div><br>
+            
+                <h3>DÓNDE ESTAMOS</h3>
+                <p class="direccion-mapa">Calle San Francisco 4, Andújar (Jaén)</p>
+                
+                <div class="caja-mapa">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.333533211032!2d-4.0574337!3d38.0397818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6c37cc12a06b7b%3A0xd0244a44ef669b71!2sC.%20Oller%C3%ADas%2C%2048%2C%2023740%20And%C3%BAjar%2C%20Ja%C3%A9n!5e0!3m2!1ses!2ses!4v1739635200000!5m2!1ses!2ses3" 
+                        width="100%" 
+                        height="250" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <br><br>
+                
+                <div class="reproductor">
+                    <p class="titulo-audio">Música ambiente:</p>
+                    <audio src="Mi_Amargura.mp3" controls style="width: 100%;"></audio>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Ibernovia Andújar.</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/paolanoviasandujar/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/PaolaNoviasOficial/?locale=es_ES" target="_blank">Facebook</a>
+        </div>
+    </footer>
+
+</body>
+</html>
